@@ -1,0 +1,13 @@
+target/
+.mvn
+!**/src/main/**/target/
+!**/src/test/**/target/
+mvnw*
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
