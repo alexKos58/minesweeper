@@ -14,9 +14,9 @@ import java.util.UUID;
 public class GameService {
 
     private final GameRepository gameRepository;
-    private final int MAXSIZE = 30;
 
     public boolean checkParams(int width, int height, int minesCount){
+        int MAXSIZE = 30;
         return (width > MAXSIZE || height > MAXSIZE
                 ||minesCount > width * height - 1);
     }
